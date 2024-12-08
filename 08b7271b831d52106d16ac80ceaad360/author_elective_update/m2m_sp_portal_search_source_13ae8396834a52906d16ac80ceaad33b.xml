@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_search_source">
+    <m2m_sp_portal_search_source action="DELETE">
+        <order>100</order>
+        <sp_portal display_value="Loaner Vehicle Request Portal">95307e9283c652906d16ac80ceaad365</sp_portal>
+        <sp_search_source display_value="Catalogs">c96eb1686721220023c82e08f585efff</sp_search_source>
+        <sys_class_name>m2m_sp_portal_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-26 01:33:43</sys_created_on>
+        <sys_id>13ae8396834a52906d16ac80ceaad33b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Loaner Vehicle Request Portal.Catalogs</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1515317_lva">08b7271b831d52106d16ac80ceaad360</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">08b7271b831d52106d16ac80ceaad360</sys_scope>
+        <sys_update_name>m2m_sp_portal_search_source_13ae8396834a52906d16ac80ceaad33b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-26 01:33:43</sys_updated_on>
+    </m2m_sp_portal_search_source>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Vehicle Request and Inventory">08b7271b831d52106d16ac80ceaad360</application>
+        <file_path/>
+        <instance_id>e40a43751bd23910c8432f8dee4bcbc4</instance_id>
+        <instance_name>dev204704</instance_name>
+        <name>m2m_sp_portal_search_source_13ae8396834a52906d16ac80ceaad33b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_search_source"><m2m_sp_portal_search_source action="INSERT_OR_UPDATE"><order>100</order><sp_portal display_value="Loaner Vehicle Request Portal">95307e9283c652906d16ac80ceaad365</sp_portal><sp_search_source display_value="Catalogs">c96eb1686721220023c82e08f585efff</sp_search_source><sys_class_name>m2m_sp_portal_search_source</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-11-26 01:33:43</sys_created_on><sys_id>13ae8396834a52906d16ac80ceaad33b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Loaner Vehicle Request Portal.Catalogs</sys_name><sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1515317_lva">08b7271b831d52106d16ac80ceaad360</sys_package><sys_policy/><sys_scope display_value="Loaner Vehicle Request and Inventory">08b7271b831d52106d16ac80ceaad360</sys_scope><sys_update_name>m2m_sp_portal_search_source_13ae8396834a52906d16ac80ceaad33b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-11-26 01:33:43</sys_updated_on></m2m_sp_portal_search_source></record_update>]]></payload>
+        <payload_hash>-1643356140</payload_hash>
+        <record_name>Loaner Vehicle Request Portal.Catalogs</record_name>
+        <reverted_from/>
+        <source>c5b86b5b831d52106d16ac80ceaad348</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-26 01:33:43</sys_created_on>
+        <sys_id>63ae8396834a52906d16ac80ceaad33e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>193661a5c6c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-26 01:33:43</sys_updated_on>
+        <type>Search Source</type>
+        <update_guid>67ae8396424a5290c73d7e23af05223d</update_guid>
+        <update_guid_history>67ae8396424a5290c73d7e23af05223d:-1643356140</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Loaner Vehicle Request Portal.Catalogs">21be0396834a52906d16ac80ceaad38b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-26 01:33:52</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_portal_search_source">m2m_sp_portal_search_source</sys_db_object>
+        <sys_id>38dfbf79ae5f48ffbc0d6e1181ea5aa1</sys_id>
+        <sys_metadata>13ae8396834a52906d16ac80ceaad33b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Loaner Vehicle Request Portal.Catalogs</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1515317_lva">08b7271b831d52106d16ac80ceaad360</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">08b7271b831d52106d16ac80ceaad360</sys_scope>
+        <sys_scope_delete display_value="">239aedb0b32245998dbc6f808de546d1</sys_scope_delete>
+        <sys_update_name>m2m_sp_portal_search_source_13ae8396834a52906d16ac80ceaad33b</sys_update_name>
+        <sys_update_version display_value="m2m_sp_portal_search_source_13ae8396834a52906d16ac80ceaad33b">63ae8396834a52906d16ac80ceaad33e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-26 01:33:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

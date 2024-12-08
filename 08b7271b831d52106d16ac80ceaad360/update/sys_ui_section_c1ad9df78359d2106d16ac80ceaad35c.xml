@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Return Details" section_id="c1ad9df78359d2106d16ac80ceaad35c" sys_domain="global" table="x_1515317_lva_vehicle_tracker" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>actual_return_date</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-24 02:25:37</sys_created_on>
+            <sys_id>f91ed1bb8359d2106d16ac80ceaad385</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Return Details" display_value="Return Details" name="x_1515317_lva_vehicle_tracker" sys_domain="global" view="Default view">c1ad9df78359d2106d16ac80ceaad35c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-24 02:25:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>return_vehicle_status</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-24 02:25:37</sys_created_on>
+            <sys_id>b51ed1bb8359d2106d16ac80ceaad386</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Return Details" display_value="Return Details" name="x_1515317_lva_vehicle_tracker" sys_domain="global" view="Default view">c1ad9df78359d2106d16ac80ceaad35c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-24 02:25:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>return_notes</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-24 02:25:37</sys_created_on>
+            <sys_id>3d1ed1bb8359d2106d16ac80ceaad386</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Return Details" display_value="Return Details" name="x_1515317_lva_vehicle_tracker" sys_domain="global" view="Default view">c1ad9df78359d2106d16ac80ceaad35c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-24 02:25:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Return Details</caption>
+            <header>false</header>
+            <name>x_1515317_lva_vehicle_tracker</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-24 02:23:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c1ad9df78359d2106d16ac80ceaad35c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1515317_lva_vehicle_tracker</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1515317_lva">08b7271b831d52106d16ac80ceaad360</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Loaner Vehicle Request and Inventory">08b7271b831d52106d16ac80ceaad360</sys_scope>
+            <sys_update_name>sys_ui_section_c1ad9df78359d2106d16ac80ceaad35c</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-24 02:23:40</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

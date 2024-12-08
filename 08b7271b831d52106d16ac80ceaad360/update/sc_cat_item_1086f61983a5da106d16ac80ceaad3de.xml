@@ -4,17 +4,17 @@
         <active>true</active>
         <availability>on_desktop</availability>
         <billable>false</billable>
-        <category/>
+        <category display_value="Loaner Vehicle">a9d4032683a952506d16ac80ceaad314</category>
         <checked_out>false</checked_out>
         <cost>0</cost>
         <custom_cart/>
-        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan/>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
         <description/>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
-        <flow_designer_flow/>
+        <flow_designer_flow display_value="Request Loaner Flow">2a1e05548375d2106d16ac80ceaad39c</flow_designer_flow>
         <fulfillment_automation_level>unspecified</fulfillment_automation_level>
         <group/>
         <hide_sp>false</hide_sp>
@@ -66,21 +66,21 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-29 00:51:14</sys_created_on>
         <sys_id>1086f61983a5da106d16ac80ceaad3de</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name>Request Loaner Vehicle</sys_name>
         <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1515317_lva">08b7271b831d52106d16ac80ceaad360</sys_package>
         <sys_policy/>
         <sys_scope display_value="Loaner Vehicle Request and Inventory">08b7271b831d52106d16ac80ceaad360</sys_scope>
         <sys_update_name>sc_cat_item_1086f61983a5da106d16ac80ceaad3de</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-11-01 22:54:22</sys_updated_on>
+        <sys_updated_on>2024-11-11 23:39:15</sys_updated_on>
         <taxonomy_topic/>
         <template/>
         <template_manager_roles/>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>18</version>
+        <version>25</version>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>

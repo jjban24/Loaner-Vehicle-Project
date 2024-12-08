@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1515317_lva_vehicle_servicing</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_1515317_lva_vehicle_servicing">ticket_statusCHANGESTOClosed^EQ<item display_value="Closed" endquery="false" field="ticket_status" goto="false" newquery="false" operator="CHANGESTO" or="false" value="Closed"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Tracker to Servicing ticket match</name>
+        <order>200</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+    // Check if the Ticket Status is being changed to "Closed"
+    if (current.ticket_status == "Closed" && previous.ticket_status != "Closed") {
+        
+        // Validate that the Vehicle Tracker reference exists
+        if (current.vehicle_tracker) {
+            var trackerGR = new GlideRecord('x_1515317_lva_vehicle_tracker'); // Replace with your Vehicle Tracker table name
+            if (trackerGR.get(current.vehicle_tracker)) { // Fetch the associated Vehicle Tracker record
+                
+                // Update the Vehicle Tracker fields
+                trackerGR.setValue('vehicle_status', current.vehicle_status); // Sync Vehicle Status
+                trackerGR.setValue('tracker_status', 'Closed'); // Set Ticket Status to "Closed"
+                
+                // Save the changes to the Vehicle Tracker record
+                trackerGR.update();
+                
+                // Log the update for debugging purposes
+                gs.info('Vehicle Tracker updated. Status: ' + trackerGR.vehicle_status + ', Ticket Status: ' + trackerGR.ticket_status);
+            } else {
+                gs.error('Failed to find Vehicle Tracker record for sys_id: ' + current.number);
+            }
+        } else {
+            gs.error('Vehicle Tracker reference is missing on the Vehicle Servicing record: ' + current.sys_id);
+        }
+    }
+})(current, previous);
+]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 01:43:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f04a268d83c2da506d16ac80ceaad3c1</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Tracker to Servicing ticket match</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1515317_lva">08b7271b831d52106d16ac80ceaad360</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">08b7271b831d52106d16ac80ceaad360</sys_scope>
+        <sys_update_name>sys_script_f04a268d83c2da506d16ac80ceaad3c1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 02:06:13</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=f04a268d83c2da506d16ac80ceaad3c1"/>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>f04a268d83c2da506d16ac80ceaad3c1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 01:43:43</sys_created_on>
+        <sys_id>7a9aea8d83c2da506d16ac80ceaad33f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 01:43:43</sys_updated_on>
+        <table>sys_script</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

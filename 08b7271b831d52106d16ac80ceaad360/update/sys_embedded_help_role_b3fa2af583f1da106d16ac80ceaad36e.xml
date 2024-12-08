@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_1515317_lva.vehicle_tracker_user" name="x_1515317_lva.vehicle_tracker_user">b6eaaaf583f1da106d16ac80ceaad344</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-11 23:25:11</sys_created_on>
+        <sys_id>b3fa2af583f1da106d16ac80ceaad36e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>b6eaaaf583f1da106d16ac80ceaad344</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1515317_lva">08b7271b831d52106d16ac80ceaad360</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">08b7271b831d52106d16ac80ceaad360</sys_scope>
+        <sys_update_name>sys_embedded_help_role_b3fa2af583f1da106d16ac80ceaad36e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-11 23:25:11</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
